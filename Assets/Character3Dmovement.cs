@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Character2Dmovement : MonoBehaviour 
+public class Character3Dmovement : MonoBehaviour 
 {
 	public float speed = 1.0f;
 	public bool canJump = true;
