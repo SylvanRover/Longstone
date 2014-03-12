@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AutoTransparent.cs" />
      <Compile Include="Assets\CameraFollowCharacterBehavior.cs" />
      <Compile Include="Assets\Character3Dmovement.cs" />
      <Compile Include="Assets\Character3DmovementNoMoveOnJump.cs" />
+     <Compile Include="Assets\ClearSight.cs" />
      <Compile Include="Assets\PlayerIsGrounded.cs" />
      <Compile Include="Assets\iTween\Plugins\iTween.cs" />
      <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
@@ -59,6 +61,7 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Transparent.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
