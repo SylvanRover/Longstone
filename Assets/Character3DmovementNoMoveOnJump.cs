@@ -114,15 +114,15 @@ public class Character3DmovementNoMoveOnJump : MonoBehaviour
 		rigidbody.velocity = new Vector3 
 			(
 			Mathf.Clamp(rigidbody.velocity.x, -speed, speed),
-			Mathf.Clamp(rigidbody.velocity.y, -500, 5),
+			Mathf.Clamp(rigidbody.velocity.y, -10, 5),
 			Mathf.Clamp(rigidbody.velocity.z, -speed, speed)
 			);
 	}
 
 	private void CheckRunTimePlatform()
 	{
-		float macFogStart = 0.03f;
-		float macFogEnd = 0.02f;
+		float macFogStart = 0.0f;
+		float macFogEnd = 2.0f;
 		float winFogStart = 0.02f;
 		float winFogEnd = 0.03f;
 		switch(Application.platform)
