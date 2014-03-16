@@ -17,22 +17,53 @@ public class Character3DmovementNoMoveOnJump : MonoBehaviour
 		{
 			if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W))
 			{
-				rigidbody.AddForce (0, 2, 5);
+				rigidbody.AddForce (0, 0, 20);
+				transform.eulerAngles = new Vector3(0, 180, 0);
 			}
 
 			if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S))
 			{
-				rigidbody.AddForce (0, 2, -5);
+				rigidbody.AddForce (0, 0, -20);
+				transform.eulerAngles = new Vector3(0, 0, 0);
+
 			}
 
 			if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D))
 			{
-				rigidbody.AddForce (5, 2, 0);
+				rigidbody.AddForce (20, 0, 0);
+				transform.eulerAngles = new Vector3(0, -90, 0);
+
 			}
 
 			if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A))
 			{
-				rigidbody.AddForce (-5, 2, 0);
+				rigidbody.AddForce (-20, 0, 0);
+				transform.eulerAngles = new Vector3(0, 90, 0);
+			}
+
+			//Diagonal Movement Rotation
+			if ((Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W)) &&
+				(Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)))
+			{
+				transform.eulerAngles = new Vector3(0, 135, 0);
+			}
+
+			if ((Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W)) &&
+			    (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)))
+			{
+				transform.eulerAngles = new Vector3(0, -135, 0);
+			}
+
+			if ((Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) &&
+			    (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)))
+			{
+				transform.eulerAngles = new Vector3(0, 45, 0);
+			}
+
+			if ((Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) &&
+			    (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)))
+			{
+				transform.eulerAngles = new Vector3(0, -45, 0);
 			}
 
 		}
