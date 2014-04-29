@@ -46,14 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AutoTransparent.cs" />
-     <Compile Include="Assets\Billboard.cs" />
-     <Compile Include="Assets\CameraFollowCharacterBehavior.cs" />
-     <Compile Include="Assets\Character3Dmovement.cs" />
-     <Compile Include="Assets\Character3DmovementNoMoveOnJump.cs" />
-     <Compile Include="Assets\ClearSight.cs" />
-     <Compile Include="Assets\FallToDeath.cs" />
-     <Compile Include="Assets\PlayerIsGrounded.cs" />
+     <Compile Include="Assets\Scripts\C#\AutoTransparent.cs" />
+     <Compile Include="Assets\Scripts\C#\Billboard.cs" />
+     <Compile Include="Assets\Scripts\C#\CameraFollowCharacterBehavior.cs" />
+     <Compile Include="Assets\Scripts\C#\Character3Dmovement.cs" />
+     <Compile Include="Assets\Scripts\C#\Character3DmovementNoMoveOnJump.cs" />
+     <Compile Include="Assets\Scripts\C#\CharacterAction.cs" />
+     <Compile Include="Assets\Scripts\C#\ClearSight.cs" />
+     <Compile Include="Assets\Scripts\C#\FallToDeath.cs" />
+     <Compile Include="Assets\Scripts\C#\OpenDoor.cs" />
+     <Compile Include="Assets\Scripts\C#\PlayerIsGrounded.cs" />
+     <Compile Include="Assets\Scripts\C#\SmoothOpenDoor.cs" />
      <Compile Include="Assets\iTween\Plugins\iTween.cs" />
      <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
      <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
@@ -63,7 +66,7 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
-     <None Include="Assets\Transparent.shader" />
+     <None Include="Assets\Shaders\Transparent.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

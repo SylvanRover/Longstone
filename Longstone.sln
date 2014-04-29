@@ -5,6 +5,8 @@ Project("{576C53E5-3AE0-F008-87B8-5442ACB44195}") = "Longstone", "Assembly-CShar
 EndProject
 Project("{576C53E5-3AE0-F008-87B8-5442ACB44195}") = "Longstone", "Assembly-CSharp.csproj", "{1BA1E1EF-029C-7DD3-C3C3-46A92C4E15D1}"
 EndProject
+Project("{576C53E5-3AE0-F008-87B8-5442ACB44195}") = "Longstone", "Assembly-CSharp-Editor.csproj", "{91286EB3-C6A3-0069-4E75-2F09C81C115D}"
+EndProject
 Project("{576C53E5-3AE0-F008-87B8-5442ACB44195}") = "Longstone", "Assembly-UnityScript-firstpass.unityproj", "{082CEA4F-07C8-5838-3491-6348CB75B607}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{1BA1E1EF-029C-7DD3-C3C3-46A92C4E15D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA1E1EF-029C-7DD3-C3C3-46A92C4E15D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA1E1EF-029C-7DD3-C3C3-46A92C4E15D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91286EB3-C6A3-0069-4E75-2F09C81C115D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91286EB3-C6A3-0069-4E75-2F09C81C115D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91286EB3-C6A3-0069-4E75-2F09C81C115D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91286EB3-C6A3-0069-4E75-2F09C81C115D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{082CEA4F-07C8-5838-3491-6348CB75B607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{082CEA4F-07C8-5838-3491-6348CB75B607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082CEA4F-07C8-5838-3491-6348CB75B607}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
