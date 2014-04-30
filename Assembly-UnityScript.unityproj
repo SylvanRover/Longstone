@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1BA1E1EF-029C-7DD3-C3C3-46A92C4E15D1}</ProjectGuid>
+	<ProjectGuid>{97562DBD-0500-2C94-EEA6-241DFFD739C8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,26 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\C#\AutoTransparent.cs" />
-     <Compile Include="Assets\Scripts\C#\Billboard.cs" />
-     <Compile Include="Assets\Scripts\C#\CameraFollowCharacterBehavior.cs" />
-     <Compile Include="Assets\Scripts\C#\Character3Dmovement.cs" />
-     <Compile Include="Assets\Scripts\C#\Character3DmovementNoMoveOnJump.cs" />
-     <Compile Include="Assets\Scripts\C#\CharacterAction.cs" />
-     <Compile Include="Assets\Scripts\C#\ClearSight.cs" />
-     <Compile Include="Assets\Scripts\C#\DoorAnimation.cs" />
-     <Compile Include="Assets\Scripts\C#\FallToDeath.cs" />
-     <Compile Include="Assets\Scripts\C#\HashIDs.cs" />
-     <Compile Include="Assets\Scripts\C#\KeyPickup.cs" />
-     <Compile Include="Assets\Scripts\C#\OpenDoor.cs" />
-     <Compile Include="Assets\Scripts\C#\PlayerInventory.cs" />
-     <Compile Include="Assets\Scripts\C#\PlayerIsGrounded.cs" />
-     <Compile Include="Assets\Scripts\C#\SmoothOpenDoor.cs" />
-     <Compile Include="Assets\Scripts\C#\Tags.cs" />
-     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
-     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
-     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
-     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Animations\NewBehaviourScript.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />

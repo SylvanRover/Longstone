@@ -5,17 +5,16 @@ public class OpenDoor : MonoBehaviour {
 
 	public CharacterAction _isActivated;
 	public bool open = false;
+		
+	private Animator anim;                      // Reference to the animator component.
+	private HashIDs hash;                       // Reference to the HashIDs script.
+	private GameObject player;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
+	void Awake ()
 	{
-		if(_isActivated.actionActived)
-			open = true;
-			Debug.Log ("Door Opened");
+		// Setting up the references.
+		anim = GetComponent<Animator>();
+		hash = GameObject.FindGameObjectWithTag(Tags.gameController).GetComponent<HashIDs>();
+		player = GameObject.FindGameObjectWithTag(Tags.player);
 	}
 }

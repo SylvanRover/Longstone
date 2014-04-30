@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\C#\OpenDoor.cs">
     <Files>
-      <File FileName="Assets\Editor\SetPivot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\C#\AutoTransparent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\C#\OpenDoor.cs" Line="17" Column="3" />
+      <File FileName="Assets\Scripts\C#\OpenDoor.cs" Line="30" Column="31" />
+      <File FileName="Assets\Scripts\C#\HashIDs.cs" Line="36" Column="2" />
+      <File FileName="Assets\Scripts\C#\Tags.cs" Line="8" Column="56" />
+      <File FileName="Assets\Scripts\C#\PlayerInventory.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\C#\KeyPickup.cs" Line="36" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
