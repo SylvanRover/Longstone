@@ -56,6 +56,8 @@
      <Compile Include="Assets\Scripts\C#\ClearSight.cs" />
      <Compile Include="Assets\Scripts\C#\DoorAnimation.cs" />
      <Compile Include="Assets\Scripts\C#\FallToDeath.cs" />
+     <Compile Include="Assets\Scripts\C#\GateAnimation.cs" />
+     <Compile Include="Assets\Scripts\C#\GateTrigger.cs" />
      <Compile Include="Assets\Scripts\C#\HashIDs.cs" />
      <Compile Include="Assets\Scripts\C#\KeyPickup.cs" />
      <Compile Include="Assets\Scripts\C#\PlayerInventory.cs" />
