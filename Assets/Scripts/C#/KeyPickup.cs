@@ -3,7 +3,7 @@ using System.Collections;
 
 public class KeyPickup : MonoBehaviour
 {
-	public AudioClip keyGrab;                       // Audioclip to play when the key is picked up.
+	//public AudioClip keyGrab;                       // Audioclip to play when the key is picked up.
 	
 	
 	private GameObject player;                      // Reference to the player.
@@ -20,11 +20,13 @@ public class KeyPickup : MonoBehaviour
 	
 	void OnTriggerEnter (Collider other)
 	{
+		Debug.Log ("Collided with Key");
 		// If the colliding gameobject is the player...
 		if(other.gameObject == player)
 		{
+			Debug.Log ("Player Collided with Key");
 			// ... play the clip at the position of the key...
-			AudioSource.PlayClipAtPoint(keyGrab, transform.position);
+			//AudioSource.PlayClipAtPoint(keyGrab, transform.position);
 			
 			// ... the player has a key ...
 			playerInventory.hasKey = true;

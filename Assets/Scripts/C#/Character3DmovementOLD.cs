@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Character3Dmovement : MonoBehaviour 
+public class Character3DmovementOLD : MonoBehaviour 
 {
 	public float speed = 1.0f;
 	public bool canJump = true;
@@ -29,7 +29,7 @@ public class Character3Dmovement : MonoBehaviour
 	void Update () 
 	{
 		transform.position += transform.right * Input.GetAxis ("Horizontal") * speed * Time.deltaTime;
-		transform.position += transform.up * Input.GetAxis ("Vertical") * speed * Time.deltaTime;
+		transform.position += transform.forward * Input.GetAxis ("Vertical") * speed * Time.deltaTime;
 
 		if (Input.GetKeyDown (KeyCode.Space) && canJump == true)
 		{
